@@ -26,5 +26,10 @@ public class StringInputDemo {
 
         System.out.println("My favorite color is " + color);
         System.out.println("My hobby is " + hobby);
+
+        // close to release resource and prevent resource/memory leaks
+        scanner.close();
     }
+
+
 }
